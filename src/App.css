@@ -1,0 +1,124 @@
+.App {
+  text-align: center;
+  overflow: visible;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0px 0px 5px 0px black;
+  height: 70px;
+ 
+}
+.left{
+  display: flex;
+margin: 80px;
+}
+
+.left>p{
+  margin: 30px;
+}
+
+.center{
+ 
+  position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+
+
+}
+
+.center>img{
+  height: 40px;
+  margin-top: 25px;
+}
+.right{
+  margin-right: 80px;
+  display: flex;
+  align-items: center;
+}
+.right>a{
+margin: 30px;
+
+align-items: center;
+}
+
+.right>button{
+  margin: 25px;
+  border-radius: 25px;
+  box-shadow: 0px 0px 5px 0px black;
+  background-color: rgb(24, 198, 131);
+  color:white;
+  letter-spacing: 2px;
+  font-family: sans-serif;
+  font-weight: 700;
+
+  border: none;
+  padding: 13px;
+}
+
+
+.bluebox{
+background-image: linear-gradient(to right,rgb(63, 81, 181) , rgb(100, 181, 246),rgb(255, 255, 255));
+width: 150%;
+height: 200px;
+}
+
+
+table{
+  background-color: white;
+  padding: 40px;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  text-align: left;
+  border-radius: 5px;
+border: 2px black;
+  width: 50%;
+  position: absolute;
+  top: 20%;
+left: 27%;
+right: 50%;
+  
+}
+
+
+
+@media screen  and (max-width: 800px){
+.nav{
+  width: 100%;
+}
+  .left{
+    display: none;
+    position: absolute;
+    margin-right: 0px;
+  }
+  .right{
+    display: none;
+  }
+
+  table{
+    background-color: white;
+    padding: 40px;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    text-align: left;
+    border-radius: 5px;
+  border: 2px black;
+  margin-left: -100px;
+    width: fit-content;
+    position: absolute;
+    top: 20%;
+  left: 1;
+  right: 1;
+    
+  }
+
+  
+}
+
+
+
